@@ -80,7 +80,7 @@ if (ADF_Clan_uniformInsignia) then {[_ADF_unit,"CLANPATCH"] call BIS_fnc_setUnit
 
 // (re-apply) SOR uniform texture
 
-if ((typeOf player) IN ["B_recon_F","B_recon_LAT_F","B_recon_exp_F","B_recon_medic_F","B_recon_TL_F","B_recon_M_F","B_recon_JTAC_F"]) then {
+if ((typeOf player) IN ["sfp_m90w_sog_ak5","sfp_m90w_sog_at_specialist_rb57","sfp_m90w_sog_explosive_specialist","sfp_m90w_sog_spotter","sfp_m90w_sog_teamleader","sfp_m90w_rifleman_ag90","sfp_m90w_sog_uav_op"]) then {
 	[_ADF_unit] spawn {
 		ADF_sorUnits = [];		
 		// Check if the SOR groups are populated/exist and add to ADF_sorUnits array

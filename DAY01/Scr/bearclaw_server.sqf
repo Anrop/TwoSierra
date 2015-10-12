@@ -62,11 +62,11 @@ objBearclaw allowDamage true;
 } forEach [vZebra_1,vZebra_2,vZebra_3,vZebra_4,vZebra_5,vZebra_6,vZebra_7,vZebra_8,vZebra_9];
 
 _g = CreateGroup WEST; 
-_p = _g createUnit ["B_crew_F",getPos tZebra,[],0,"CAPTAIN"]; _p moveInCommander vZebra_1;
-_p = _g createUnit ["B_crew_F",getPos tZebra,[],0,"CORPORAL"]; _p moveInGunner vZebra_1;
-_p = _g createUnit ["B_crew_F",getPos tZebra,[],0,"LIEUTENANT"]; _p moveInCommander vZebra_2;
-_p = _g createUnit ["B_crew_F",getPos tZebra,[],0,"CORPORAL"]; _p moveInGunner vZebra_2;
-_p = _g createUnit ["B_Soldier_F",getPos tZebra,[],0,"PRIVATE"]; _p moveInGunner vZebra_3;
+_p = _g createUnit ["sfp_m90w_crew",getPos tZebra,[],0,"CAPTAIN"]; _p moveInCommander vZebra_1;
+_p = _g createUnit ["sfp_m90w_crew",getPos tZebra,[],0,"CORPORAL"]; _p moveInGunner vZebra_1;
+_p = _g createUnit ["sfp_m90w_crew",getPos tZebra,[],0,"LIEUTENANT"]; _p moveInCommander vZebra_2;
+_p = _g createUnit ["sfp_m90w_crew",getPos tZebra,[],0,"CORPORAL"]; _p moveInGunner vZebra_2;
+_p = _g createUnit ["sfp_m90w_rifleman_ak5",getPos tZebra,[],0,"PRIVATE"]; _p moveInGunner vZebra_3;
 
 // Create retaliation
 for "_i" from 1 to 2 do {

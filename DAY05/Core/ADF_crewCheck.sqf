@@ -42,28 +42,28 @@ diag_log "ADF RPT: Init - executing ADF_crewCheck.sqf"; // Reporting. Do NOT edi
 ADF_CC_airJetPilotArray 	= [
 	"I_Pilot_F",
 	"O_Pilot_F",
-	"B_Pilot_F"			// never place a comma after the last entry!!!
+	"sfp_m90w_pilot"			// never place a comma after the last entry!!!
 ];
 
 // Enter the CLASSNAMES of units that are ALLOWED to operate a helicopter as a pilot
 ADF_CC_airHeliPilotArray 	= [
 	"I_helipilot_F",
 	"O_helipilot_F",		
-	"B_Helipilot_F"		// never place a comma after the last entry!!!
+	"sfp_m90w_helipilot"		// never place a comma after the last entry!!!
 ];
 
 // Enter the CLASSNAMES of units that are ALLOWED to helicopter as crew (e.g. board gunner on the Heron)
 ADF_CC_airHeliCrewArray 	= [
 	"I_helicrew_F",
 	"O_helicrew_F",
-	"B_helicrew_F"		// never place a comma after the last entry!!!
+	"sfp_m90w_helipilot"		// never place a comma after the last entry!!!
 ];
 
 // Enter the CLASSNAMES of units that are ALLOWED to operate armoured vehicles (MBT's and APC's)
 ADF_CC_cavCrewArray		= [
 	"I_crew_F",
 	"O_crew_F",
-	"B_crew_F"			// never place a comma after the last entry!!!
+	"sfp_m90w_crew"			// never place a comma after the last entry!!!
 ];
 
 // Enter the CLASSNAMES of aircraft/helicopters that crew check applies to
@@ -95,17 +95,17 @@ ADF_CC_airVeh_Restric	= [
 	"I_Heli_light_03_unarmed_F",
 	"I_Plane_Fighter_03_CAS_F",
 	"I_Plane_Fighter_03_AA_F",
-	"B_Heli_Light_01_F",
-	"B_Heli_Light_01_armed_F",
-	"B_Heli_Light_01_stripped_F",
-	"B_Heli_Attack_01_F",
-	"B_Heli_Transport_01_F",
-	"B_Heli_Transport_01_camo_F",
-	"B_Heli_Transport_03_F",
-	"B_Heli_Transport_03_unarmed_F",
-	"B_Heli_Transport_03_black_F",
-	"B_Heli_Transport_03_unarmed_green_F",
-	"B_Plane_CAS_01_F" 	// never place a comma after the last entry!!!
+	"sfp_hkp9_sog",
+	"sfp_hkp9_sog",
+	"sfp_hkp9_sog",
+	"sfp_jas39",
+	"sfp_hkp16",
+	"sfp_hkp16",
+	"sfp_hkp4_2015",
+	"sfp_hkp4_2015",
+	"sfp_hkp4_2015",
+	"sfp_hkp4_2015",
+	"sfp_jas39" 	// never place a comma after the last entry!!!
 ];
 
 // Enter the CLASSNAMES of armoured vehicles that crew check applies to
@@ -118,11 +118,11 @@ ADF_CC_armVeh_Restric	= [
 	"I_APC_tracked_03_cannon_F",
 	"I_MBT_03_cannon_F",
 	"I_APC_Wheeled_03_cannon_F",
-	"B_APC_Tracked_01_rcws_F",
-	"B_APC_Wheeled_01_cannon_F",
-	"B_MBT_01_TUSK_F",
+	"sfp_strf90c",
+	"sfp_patgb203",
+	"sfp_strv122",
 	"B_MBT_01_cannon_F",
-	"B_APC_Tracked_01_AA_F",
+	"sfp_lvkv90c",
 	"B_MBT_01_arty_F","B_MBT_01_mlrs_F" 	// never place a comma after the last entry!!!
 ];
 

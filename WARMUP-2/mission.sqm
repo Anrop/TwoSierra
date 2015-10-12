@@ -313,7 +313,7 @@ class Mission
 					special="NONE";
 					id=8;
 					side="WEST";
-					vehicle="B_officer_F";
+					vehicle="sfp_m90w_officer";
 					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
@@ -328,7 +328,7 @@ class Mission
 					azimut=-325.53076;
 					id=9;
 					side="WEST";
-					vehicle="B_Soldier_lite_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -350,7 +350,7 @@ class Mission
 					azimut=-143.595;
 					id=10;
 					side="WEST";
-					vehicle="B_Soldier_SL_F";
+					vehicle="sfp_m90w_squadleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -365,7 +365,7 @@ class Mission
 					azimut=-143.595;
 					id=11;
 					side="WEST";
-					vehicle="B_medic_F";
+					vehicle="sfp_m90w_medic";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -387,7 +387,7 @@ class Mission
 					azimut=-143.595;
 					id=12;
 					side="WEST";
-					vehicle="B_Soldier_TL_F";
+					vehicle="sfp_m90w_teamleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -402,7 +402,7 @@ class Mission
 					azimut=-143.595;
 					id=13;
 					side="WEST";
-					vehicle="B_soldier_AR_F";
+					vehicle="sfp_m90w_automaticrifleman_ksp90";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -416,7 +416,7 @@ class Mission
 					azimut=-143.595;
 					id=14;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AAR_1";
@@ -429,7 +429,7 @@ class Mission
 					azimut=-143.595;
 					id=15;
 					side="WEST";
-					vehicle="B_soldier_LAT_F";
+					vehicle="sfp_m90w_at_specialist_rb57";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_RAT_1";
@@ -450,7 +450,7 @@ class Mission
 					azimut=-143.595;
 					id=16;
 					side="WEST";
-					vehicle="B_Soldier_TL_F";
+					vehicle="sfp_m90w_teamleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -465,7 +465,7 @@ class Mission
 					azimut=-143.595;
 					id=17;
 					side="WEST";
-					vehicle="B_soldier_AR_F";
+					vehicle="sfp_m90w_automaticrifleman_ksp90";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -479,7 +479,7 @@ class Mission
 					azimut=-143.595;
 					id=18;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AAR_2";
@@ -492,7 +492,7 @@ class Mission
 					azimut=-143.595;
 					id=19;
 					side="WEST";
-					vehicle="B_soldier_LAT_F";
+					vehicle="sfp_m90w_at_specialist_rb57";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_RAT_2";
@@ -513,7 +513,7 @@ class Mission
 					azimut=-143.595;
 					id=20;
 					side="WEST";
-					vehicle="B_Soldier_SL_F";
+					vehicle="sfp_m90w_squadleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="SERGEANT";
@@ -528,7 +528,7 @@ class Mission
 					azimut=-143.595;
 					id=21;
 					side="WEST";
-					vehicle="B_medic_F";
+					vehicle="sfp_m90w_medic";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -550,7 +550,7 @@ class Mission
 					azimut=-143.595;
 					id=22;
 					side="WEST";
-					vehicle="B_Soldier_TL_F";
+					vehicle="sfp_m90w_teamleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -565,7 +565,7 @@ class Mission
 					azimut=-143.595;
 					id=23;
 					side="WEST";
-					vehicle="B_soldier_AR_F";
+					vehicle="sfp_m90w_automaticrifleman_ksp90";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -579,7 +579,7 @@ class Mission
 					azimut=-143.595;
 					id=24;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AAR_3";
@@ -594,7 +594,7 @@ class Mission
 					azimut=-143.595;
 					id=25;
 					side="WEST";
-					vehicle="B_soldier_LAT_F";
+					vehicle="sfp_m90w_at_specialist_rb57";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_RAT_3";
@@ -615,7 +615,7 @@ class Mission
 					azimut=-143.595;
 					id=26;
 					side="WEST";
-					vehicle="B_Soldier_TL_F";
+					vehicle="sfp_m90w_teamleader";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -630,7 +630,7 @@ class Mission
 					azimut=-143.595;
 					id=27;
 					side="WEST";
-					vehicle="B_soldier_AR_F";
+					vehicle="sfp_m90w_automaticrifleman_ksp90";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -644,7 +644,7 @@ class Mission
 					azimut=-143.595;
 					id=28;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AAR_4";
@@ -657,7 +657,7 @@ class Mission
 					azimut=-143.595;
 					id=29;
 					side="WEST";
-					vehicle="B_soldier_LAT_F";
+					vehicle="sfp_m90w_at_specialist_rb57";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_RAT_4";
@@ -678,7 +678,7 @@ class Mission
 					azimut=-139.76697;
 					id=30;
 					side="WEST";
-					vehicle="B_soldier_AA_F";
+					vehicle="sfp_1990_m90w_aa_specialist_rbs69";
 					player="PLAY CDG";
 					leader=1;
 					rank="CORPORAL";
@@ -693,7 +693,7 @@ class Mission
 					azimut=-139.76697;
 					id=31;
 					side="WEST";
-					vehicle="B_medic_F";
+					vehicle="sfp_m90w_medic";
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.2;
@@ -715,7 +715,7 @@ class Mission
 					azimut=-143.595;
 					id=32;
 					side="WEST";
-					vehicle="B_HeavyGunner_F";
+					vehicle="sfp_m90w_machinegunner_ksp58";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.2;
@@ -729,7 +729,7 @@ class Mission
 					azimut=-143.595;
 					id=33;
 					side="WEST";
-					vehicle="B_soldier_AAR_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AMG_1";
@@ -750,7 +750,7 @@ class Mission
 					azimut=-143.595;
 					id=34;
 					side="WEST";
-					vehicle="B_soldier_AT_F";
+					vehicle="sfp_m90w_at_specialist_grg86";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.2;
@@ -764,7 +764,7 @@ class Mission
 					azimut=-143.595;
 					id=35;
 					side="WEST";
-					vehicle="B_soldier_AAT_F";
+					vehicle="sfp_m90w_at_loader_grg86";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AMS_1";
@@ -785,7 +785,7 @@ class Mission
 					azimut=-143.595;
 					id=36;
 					side="WEST";
-					vehicle="B_support_MG_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.2;
@@ -799,7 +799,7 @@ class Mission
 					azimut=-143.595;
 					id=37;
 					side="WEST";
-					vehicle="B_support_AMG_F";
+					vehicle="sfp_m90w_rifleman_ak5";
 					player="PLAY CDG";
 					skill=0.2;
 					text="INF_AHMG_1";
@@ -1614,7 +1614,7 @@ class Mission
 			azimut=-145.20612;
 			id=103;
 			side="EMPTY";
-			vehicle="B_Truck_01_mover_F";
+			vehicle="sfp_tgb30_repair";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
@@ -1625,7 +1625,7 @@ class Mission
 			azimut=122.81637;
 			id=104;
 			side="EMPTY";
-			vehicle="B_Truck_01_fuel_F";
+			vehicle="sfp_tgb40_fuel";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vFuelTruck";
@@ -1637,7 +1637,7 @@ class Mission
 			azimut=215.21982;
 			id=105;
 			side="EMPTY";
-			vehicle="B_Truck_01_covered_F";
+			vehicle="sfp_tgb20";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
@@ -1785,7 +1785,7 @@ class Mission
 			azimut=-142.74429;
 			id=118;
 			side="EMPTY";
-			vehicle="B_MBT_01_TUSK_F";
+			vehicle="sfp_strv122";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="oStat_01";
@@ -1831,7 +1831,7 @@ class Mission
 			azimut=314.01505;
 			id=122;
 			side="EMPTY";
-			vehicle="B_Truck_01_fuel_F";
+			vehicle="sfp_tgb40_fuel";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false;";
@@ -1980,7 +1980,7 @@ class Mission
 			azimut=-123.934;
 			id=137;
 			side="EMPTY";
-			vehicle="B_APC_Tracked_01_AA_F";
+			vehicle="sfp_lvkv90c";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [2, ""Img\cusTex_NRFcamo.jpg""]; ";
@@ -1991,7 +1991,7 @@ class Mission
 			azimut=-103.80979;
 			id=138;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_BRAVO";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2005,7 +2005,7 @@ class Mission
 			azimut=-103.80979;
 			id=139;
 			side="EMPTY";
-			vehicle="B_MRAP_01_hmg_F";
+			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_1_ALPHA";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2019,7 +2019,7 @@ class Mission
 			azimut=-103.80979;
 			id=140;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_BRAVO";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2033,7 +2033,7 @@ class Mission
 			azimut=-103.80979;
 			id=141;
 			side="EMPTY";
-			vehicle="B_MRAP_01_hmg_F";
+			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_2_ALPHA";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2047,7 +2047,7 @@ class Mission
 			azimut=-103.80979;
 			id=142;
 			side="EMPTY";
-			vehicle="B_MRAP_01_gmg_F";
+			vehicle="";
 			skill=0.2;
 			text="MRAP_2_3_WT2";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2061,7 +2061,7 @@ class Mission
 			azimut=-103.80979;
 			id=143;
 			side="EMPTY";
-			vehicle="B_MRAP_01_hmg_F";
+			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT1";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2075,7 +2075,7 @@ class Mission
 			azimut=-103.80979;
 			id=144;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2PC";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2089,7 +2089,7 @@ class Mission
 			azimut=-103.80979;
 			id=145;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_SQUAD";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2103,7 +2103,7 @@ class Mission
 			azimut=-103.80979;
 			id=146;
 			side="EMPTY";
-			vehicle="B_MRAP_01_F";
+			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_SQUAD";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
@@ -2247,7 +2247,7 @@ class Mission
 			azimut=-56.097923;
 			id=160;
 			side="EMPTY";
-			vehicle="B_Truck_01_medical_F";
+			vehicle="sfp_patgb203_ambulance";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false;  if (isServer) then {this setVariable [""ace_medical_isMedicalVehicle"", true];};";

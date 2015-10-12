@@ -19,13 +19,13 @@ call compile preprocessFileLineNumbers "Scr\ADF_redress_Pashtun.sqf";
 
 // Static Defences
 NRF_grp_4 = CreateGroup WEST; 
-_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "SERGEANT"]; _p moveInGunner oStat_01;
-_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "CORPORAL"]; _p moveInGunner oStat_02;
-//_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "CORPORAL"]; _p moveInGunner oStat_03;
-//_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_04;
-//_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_05;
-//_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_06;
-//_p = NRF_grp_4 createUnit ["B_Soldier_F", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_07;
+_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "SERGEANT"]; _p moveInGunner oStat_01;
+_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "CORPORAL"]; _p moveInGunner oStat_02;
+//_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "CORPORAL"]; _p moveInGunner oStat_03;
+//_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_04;
+//_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_05;
+//_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_06;
+//_p = NRF_grp_4 createUnit ["sfp_m90w_rifleman_ak5", getPos oLand_1, [], 0, "PRIVATE"]; _p moveInGunner oStat_07;
 {[_x] call ADF_fnc_redressNRF; _x enableSimulationGlobal false;} forEach units NRF_grp_4;
 NRF_grp_4 setGroupIdGlobal ["5-3 CHARLIE"];
 
@@ -123,7 +123,7 @@ ADF_wpPosRdm = {
 		_pause = [300,600,900,1200,1800] call BIS_fnc_selectRandom;
 		_startPos = call ADF_wpPosRdm;
 		_exitPos = call ADF_wpPosRdm;
-		_heli = "B_Heli_Transport_03_F";
+		_heli = "sfp_hkp4_2015";
 		_landPos = [oLand_1,oLand_2] call BIS_fnc_selectRandom;		
 		_c = createGroup WEST;
 		_v = [getMarkerPos _startPos, 0, _heli, _c] call BIS_fnc_spawnVehicle;

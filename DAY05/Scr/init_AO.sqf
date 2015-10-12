@@ -22,7 +22,7 @@ ADF_wpPosRdm = {
 		_pause = [300,600,900,1200,1800] call BIS_fnc_selectRandom;
 		_startPos = call ADF_wpPosRdm;
 		_exitPos = call ADF_wpPosRdm;
-		_heli = "B_Heli_Transport_03_F";
+		_heli = "sfp_hkp4_2015";
 		_c = createGroup WEST;
 		_v = [getMarkerPos _startPos, 0, _heli, _c] call BIS_fnc_spawnVehicle;
 		_c setGroupIdGlobal ["6-1 AIRBUS"];

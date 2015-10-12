@@ -39,8 +39,8 @@ ADF_CAS_delay			= round (180 + (random 60));
  // Time spend in the CAS area. After which the CAS aircraft returns to the spawn location and is deleted.
 ADF_CAS_onSite		= round (20 + (random 30));
 
-// classname of CAS aircraft. E.g. "B_Heli_Attack_01_F" in case of BluFor (Attach Helicopter).
-ADF_CAS_vehClass		= "B_Heli_Attack_01_F"; 
+// classname of CAS aircraft. E.g. "sfp_jas39" in case of BluFor (Attach Helicopter).
+ADF_CAS_vehClass		= "sfp_jas39"; 
 
 // Size of the CAS radius. Marker that shows the CAS ao. 
 ADF_CAS_aoTriggerRad	= 800; 

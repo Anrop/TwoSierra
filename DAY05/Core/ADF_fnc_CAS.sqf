@@ -157,7 +157,7 @@ if ((ADF_CAS_pos select 1) > 4000) then {ADF_CAS_vector = [543.313,5063.63,0]; A
 // Create RAPTOR
 _c = createGroup WEST;
 _c setGroupIdGlobal ["RAPTOR"];
-_v = [ADF_CAS_spawn, 90, "B_Heli_Attack_01_F", _c] call BIS_fnc_spawnVehicle;
+_v = [ADF_CAS_spawn, 90, "sfp_jas39", _c] call BIS_fnc_spawnVehicle;
 vRaptor = _v select 0;
 //vRaptor allowDamage false; // debug
 //{_x allowDamage false} forEach units _c; // debug

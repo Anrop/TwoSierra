@@ -299,7 +299,7 @@ With Notepad++ open ADF_init_config.sqf which can be found in the mission root f
 4.  `_ADF_mhq_enable = true;` Change to **true** or **false**. Set to true to enable the Mobile HQ (MHQ). Players will respawn at the MHQ once the MHQ is deployed in-game.
 5.  `_ADF_mhq_respawn_nr = 3;` Change to the number respawns for a destroyed MHQ vehicle. If there are no more respawns available, the respawn marker (location where players respawn) is move to the last know 'safe position' of the MHQ.
 6.  `ADF_mhq_respawn_time = 15;` Change to the number of **minutes** it takes before a destroyed MHQ vehicle respawns (at the game's original start position, e.g. where the mission developer placed the MHQ vehicle in the editor).
-7.  `_ADF_mhq_respawn_class = "B_APC_Tracked_01_CRV_F";` Change to MHQ vehicle classname (default is the 'Bobcat'). Any vehicle can be used. If you wish to change, classnames can be found [here](https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST)
+7.  `_ADF_mhq_respawn_class = "sfp_strf90c";` Change to MHQ vehicle classname (default is the 'Bobcat'). Any vehicle can be used. If you wish to change, classnames can be found [here](https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST)
 8.  `_ADF_mhq_deploy_time = 120;` Change to the time in **seconds** it takes to deploy the MHQ (unpack the FOB). Setting this to a few minutes will add some immersion.
 9.  `_ADF_mhq_packup_time = 180;` Change to the time in **seconds** it takes to mobilize the MHQ (pack-up the FOB). Setting this to a few minutes will add some immersion.
 

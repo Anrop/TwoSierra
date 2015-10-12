@@ -29,14 +29,14 @@ NRF_grp_2 setGroupIdGlobal ["5-1 BRAVO"];
 
 // Static Defences & Ambient Vehicles
 NRF_grp_3 = CreateGroup WEST; 
-_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "SERGEANT"]; _p moveInGunner bDef_01;
-_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner bDef_02;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_03;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_04;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_05;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner oStat_06;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_07;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_08;
+_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "SERGEANT"]; _p moveInGunner bDef_01;
+_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner bDef_02;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_03;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_04;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_05;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner oStat_06;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_07;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_08;
 NRF_grp_3 setGroupIdGlobal ["5-1 CHARLIE"];
 
 {_x enableSimulationGlobal false} forEach units NRF_grp_3;

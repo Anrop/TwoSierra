@@ -34,14 +34,14 @@ NRF_grp_2 setGroupIdGlobal ["5-1 BRAVO"];
 
 // Static Defences & Ambient Vehicles
 NRF_grp_3 = CreateGroup WEST; 
-_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "SERGEANT"]; _p moveInGunner oStat_01;
-_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner oStat_02;
-_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_03;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_04;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_05;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner oStat_06;
-//_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_07;
-_p = NRF_grp_3 createUnit ["B_Soldier_F", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_08;
+_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "SERGEANT"]; _p moveInGunner oStat_01;
+_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner oStat_02;
+_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_03;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_04;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_05;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "CORPORAL"]; _p moveInGunner oStat_06;
+//_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_07;
+_p = NRF_grp_3 createUnit ["sfp_m90w_rifleman_ak5", getPos b_net, [], 0, "PRIVATE"]; _p moveInGunner oStat_08;
 NRF_grp_3 setGroupIdGlobal ["5-1 CHARLIE"];
 
 {_x enableSimulationGlobal false} forEach units NRF_grp_3;
@@ -133,7 +133,7 @@ ADF_wpPosRdm = {
 		_pause = [300,600,900,1200,1800] call BIS_fnc_selectRandom;
 		_startPos = call ADF_wpPosRdm;
 		_exitPos = call ADF_wpPosRdm;
-		_heli = "B_Heli_Transport_03_F";
+		_heli = "sfp_hkp4_2015";
 		_c = createGroup WEST;
 		_v = [getMarkerPos _startPos, 0, _heli, _c] call BIS_fnc_spawnVehicle;
 		_c setGroupIdGlobal ["6-1 AIRBUS"];

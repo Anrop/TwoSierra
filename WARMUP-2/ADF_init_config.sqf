@@ -106,7 +106,7 @@ _ADF_eTixNr = 15; // Respawn Tickets. Number available respawns for EAST Opfor.
 _ADF_mhq_enable = false; // enable the MHQ function [true/false].
 _ADF_mhq_respawn_nr = 3; // Number of MHQ vehicle respawn available.
 _ADF_mhq_respawn_time = 15; // MHQ vehicle respawn time in minutes.
-_ADF_mhq_respawn_class = "B_APC_Tracked_01_CRV_F"; // MHQ vehicle classname (default is the 'Bobcat').
+_ADF_mhq_respawn_class = "sfp_strf90c"; // MHQ vehicle classname (default is the 'Bobcat').
 _ADF_mhq_deploy_time = 120; // MHQ deployment time in seconds.
 _ADF_mhq_packup_time = 180; // MHQ packup time in seconds.
 
