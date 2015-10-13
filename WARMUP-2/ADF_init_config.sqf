@@ -33,7 +33,7 @@ _ADF_preset = "2SIERRA"; // pre-defined call sign/radio freq presets. [DEFAULT /
 
 /********** GEAR & LOADOUT **********/
 ADF_sameGearRespawn = true; // enable respawn with same gear (either ADF or ACE3)? [true/false]
-_ADF_customLoadout_MOD = true; // Are you using ADF loadout/gear or BIS Vanilla gear. Set to true for preset ADF gear (+ ACE, CTAB, Radios)? [true/false]
+_ADF_customLoadout_MOD = false; // Are you using ADF loadout/gear or BIS Vanilla gear. Set to true for preset ADF gear (+ ACE, CTAB, Radios)? [true/false]
 _ADF_noLoadout = true; // Set to true if you use your own loadout script or loadout mod. [true/false]
 _ADF_uniform_inf = "U_B_CombatUniform_mcam"; // Infantry. Use uniform class name. Crew, pilots etc keep their Vanilla uniform.
 _ADF_uniform_sor = "U_B_CombatUniform_mcam_vest"; // Recon. Use uniform class name.

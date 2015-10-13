@@ -225,7 +225,7 @@ With Notepad++ open ADF_init_config.sqf which can be found in the mission root f
 #### Gear & Loadout
 
 1.  `ADF_sameGearRespawn = true;` Change to **true** or **false**. In case of respawn this determines if players respawn with the same loadout as when they died. If ACE3 is active it will use the ACE sameGear function. Else it will use the ADF sameGear function.
-2.  `_ADF_customLoadout_MOD = true;` Change to **true** or **false**. When set to true it will use the preconfigured loadout scripts. When set to false it will use the BIS Vanilla gear + items from active mods such as cTAB, ACE3 and TFAR/ACRE2.
+2.  `_ADF_customLoadout_MOD = false;` Change to **true** or **false**. When set to true it will use the preconfigured loadout scripts. When set to false it will use the BIS Vanilla gear + items from active mods such as cTAB, ACE3 and TFAR/ACRE2.
 3.  `_ADF_noLoadout = false;` Change to **true** or **false**. When set to true, ADF will not load any gear scripts. This is useful when using a custom loadout/gear mod. *Please note that call sign/radio frequencies are loaded no matter if you set '_ADF_noLoadout to true or false*.
 4.  `_ADF_uniform_inf = "U_B_CombatUniform_mcam";` Change to the classname of the uniform of **infantry** units. If you wish to change, classnames can be found [here](https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Equipment).
 5.  `_ADF_uniform_sor = "U_B_CombatUniform_mcam_vest";` Change to the classname of the uniform of **SpecOp** units. If you wish to change, classnames can be found [here](https://community.bistudio.com/wiki/Arma_3_CfgWeapons_Equipment).
