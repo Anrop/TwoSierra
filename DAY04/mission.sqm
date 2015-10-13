@@ -854,7 +854,7 @@ class Mission
 			azimut=-124.609;
 			id=43;
 			side="EMPTY";
-			vehicle="";
+			vehicle="sfp_tgb16_rws";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="oStat_02";
@@ -1357,7 +1357,7 @@ class Mission
 			azimut=100;
 			id=89;
 			side="EMPTY";
-			vehicle="";
+			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT2";
 			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
