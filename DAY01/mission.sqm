@@ -2946,7 +2946,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vZebra_1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_NRFcamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_M2A4up_tiles.jpg""]; ";
+			init="this; [0, ""Img\cusTex_NRFcamo.jpg""]; this; [1, ""Img\cusTex_NRFcamo.jpg""];  this; [2, ""Img\cusTex_M2A4up_tiles.jpg""]; ";
 		};
 		class Item184
 		{
@@ -2958,7 +2958,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vZebra_2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [2, ""Img\cusTex_NRFcamo.jpg""]; ";
+			init="this; [0, ""Img\cusTex_NRFcamo.jpg""]; this; [1, ""Img\cusTex_NRFcamo.jpg""]; this; [2, ""Img\cusTex_NRFcamo.jpg""]; ";
 		};
 		class Item185
 		{
@@ -2970,7 +2970,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vZebra_4";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 		};
 		class Item186
 		{
@@ -2982,7 +2982,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vZebra_3";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 		};
 		class Item187
 		{
@@ -3015,7 +3015,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vZebra_7";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_HEMTT_cover.jpg""];";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""];  this; [1, ""Img\cusTex_HEMTT_cover.jpg""];";
 		};
 		class Item190
 		{
@@ -3039,7 +3039,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vZebra_9";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""];";
 		};
 		class Item192
 		{
@@ -3049,7 +3049,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item193
 		{
@@ -3059,7 +3059,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item194
 		{
@@ -3069,7 +3069,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item195
 		{
@@ -3079,7 +3079,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item196
 		{
@@ -3089,7 +3089,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item197
 		{
@@ -3099,7 +3099,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item198
 		{
@@ -3109,7 +3109,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item199
 		{
@@ -3119,7 +3119,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item200
 		{
@@ -3129,7 +3129,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item201
 		{
@@ -3139,7 +3139,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item202
 		{
@@ -3149,7 +3149,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CSAT_base.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CSAT_base.paa""];";
 		};
 		class Item203
 		{
@@ -3190,7 +3190,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_BRAVO";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item207
@@ -3202,7 +3202,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_1_ALPHA";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item208
@@ -3214,7 +3214,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_BRAVO";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item209
@@ -3226,7 +3226,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_2_ALPHA";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item210
@@ -3238,7 +3238,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-3 MRAP";
 		};
 		class Item211
@@ -3250,7 +3250,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-3 MRAP";
 		};
 		class Item212
@@ -3262,7 +3262,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2PC";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2 PLT Vehicle";
 		};
 		class Item213
@@ -3274,7 +3274,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_SQUAD";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item214
@@ -3286,7 +3286,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_SQUAD";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 	};

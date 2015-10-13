@@ -138,7 +138,7 @@ ADF_loadout_platoon = {
 		params ["_texUniform", "_texInsignia", "_texCustom"];
 		if (isNil "_texCustom") exitWith {};
 		if (_texUniform == _texCustom) exitWith {};
-		player setObjectTextureGlobal [0, _texCustom];
+		player; [0, _texCustom];
 		if (ADF_Clan_uniformInsignia) then {[player,"CLANPATCH"] call BIS_fnc_setUnitInsignia};
 		false
 	}];

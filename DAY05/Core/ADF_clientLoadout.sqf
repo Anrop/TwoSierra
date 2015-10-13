@@ -20,7 +20,7 @@ if (isServer) then {
 		[] spawn {
 			if (isMultiplayer) then {ADF_uArray = playableUnits;} else {ADF_uArray = switchableUnits};
 			sleep 20; // wait till units have geared up
-			{_x setObjectTextureGlobal [0, "\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"]} forEach ADF_uArray; 
+			{_x; [0, "\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"]} forEach ADF_uArray; 
 			ADF_uArray = nil;
 		};
 	};
@@ -28,7 +28,7 @@ if (isServer) then {
 		[] spawn {
 			if (isMultiplayer) then {ADF_uArray = playableUnits;} else {ADF_uArray = switchableUnits};
 			sleep 20; // wait till units have geared up
-			{_x setObjectTextureGlobal [0, "\A3\Characters_F\Common\Data\basicbody_black_co.paa"]} forEach ADF_uArray; 
+			{_x; [0, "\A3\Characters_F\Common\Data\basicbody_black_co.paa"]} forEach ADF_uArray; 
 			ADF_uArray = nil;
 		};
 	};	
@@ -140,7 +140,7 @@ if ((_ADF_unitFaction == "BLU_F") && _ADF_customLoadout_MOD) exitWith { // BLUFO
 				params ["_texUniform", "_texInsignia", "_texCustom"];
 				if (isNil "_texCustom") exitWith {};
 				if (_texUniform == _texCustom) exitWith {};
-				player setObjectTextureGlobal [0, _texCustom];
+				player; [0, _texCustom];
 				if (ADF_Clan_uniformInsignia) then {[player,"CLANPATCH"] call BIS_fnc_setUnitInsignia};
 				false
 			}];

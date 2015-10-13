@@ -361,7 +361,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
-					init="gAegis_2 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_2 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item1
 				{
@@ -371,7 +371,7 @@ class Mission
 					vehicle="B_G_Soldier_AR_F";
 					rank="CORPORAL";
 					skill=0.44999999;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item2
 				{
@@ -380,7 +380,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_GL_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item3
 				{
@@ -389,7 +389,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_LAT_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -408,7 +408,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
-					init="gAegis_3 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_3 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item1
 				{
@@ -417,7 +417,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_GL_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -436,7 +436,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
-					init="gAegis_4 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_4 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item1
 				{
@@ -446,7 +446,7 @@ class Mission
 					vehicle="B_G_Soldier_AR_F";
 					rank="CORPORAL";
 					skill=0.44999999;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item2
 				{
@@ -455,7 +455,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_GL_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item3
 				{
@@ -464,7 +464,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_LAT_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -484,7 +484,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.5;
 					text="uAegis_g5_1";
-					init="gAegis_5 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_5 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item1
 				{
@@ -494,7 +494,7 @@ class Mission
 					vehicle="B_G_Soldier_AR_F";
 					rank="CORPORAL";
 					skill=0.44999999;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item2
 				{
@@ -504,7 +504,7 @@ class Mission
 					vehicle="B_G_Soldier_GL_F";
 					skill=0.40000001;
 					text="uAegis_g5_2";
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item3
 				{
@@ -513,7 +513,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_LAT_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -532,7 +532,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
-					init="gAegis_6 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_6 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item1
 				{
@@ -541,7 +541,7 @@ class Mission
 					side="WEST";
 					vehicle="B_G_Soldier_GL_F";
 					skill=0.40000001;
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -1039,7 +1039,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="gAegis_10 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_10 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -1060,7 +1060,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.5;
 					text="uAegis_g1_1";
-					init="gAegis_1 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="gAegis_1 = group this; removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item1
 				{
@@ -1072,7 +1072,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.44999999;
 					text="uAegis_g1_3";
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item2
 				{
@@ -1083,7 +1083,7 @@ class Mission
 					vehicle="B_G_Soldier_GL_F";
 					skill=0.40000001;
 					text="uAegis_g1_2";
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 				class Item3
 				{
@@ -1094,7 +1094,7 @@ class Mission
 					vehicle="B_G_Soldier_LAT_F";
 					skill=0.40000001;
 					text="uAegis_g1_4";
-					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this setObjectTextureGlobal [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
+					init="removeAllWeapons this; removeAllItems this; removeAllAssignedItems this; removeVest this; removeBackpack this; removeHeadgear this; removeGoggles this;  this forceAddUniform ""U_C_WorkerCoveralls""; this; [0, ""\A3\characters_f\common\data\coveralls_grey_co.paa""];";
 				};
 			};
 		};
@@ -2566,7 +2566,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item144
 		{
@@ -2602,7 +2602,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item147
 		{
@@ -2626,7 +2626,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item149
 		{
@@ -3506,7 +3506,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item232
 		{
@@ -3517,7 +3517,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item233
 		{
@@ -3528,7 +3528,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item234
 		{
@@ -3539,7 +3539,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item235
 		{
@@ -3639,7 +3639,7 @@ class Mission
 			lock="UNLOCKED";
 			skill=0.60000002;
 			text="sCP_2";
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item244
 		{
@@ -3650,7 +3650,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item245
 		{
@@ -4064,7 +4064,7 @@ class Mission
 			vehicle="B_G_Offroad_01_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			init="this setVariable [""BIS_enableRandomization"", false]; this setObjectTextureGlobal [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
+			init="this setVariable [""BIS_enableRandomization"", false]; this; [0, ""Img\cusTex_offroad_Aegis2.jpg""];";
 		};
 		class Item286
 		{
@@ -4098,7 +4098,7 @@ class Mission
 			vehicle="I_Truck_02_box_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_repair_co.paa""];";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_repair_co.paa""];";
 		};
 		class Item289
 		{
@@ -4110,7 +4110,7 @@ class Mission
 			vehicle="O_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
 		};
 		class Item290
 		{
@@ -4122,7 +4122,7 @@ class Mission
 			vehicle="O_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
 		};
 		class Item291
 		{
@@ -4134,7 +4134,7 @@ class Mission
 			vehicle="O_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
 		};
 		class Item292
 		{
@@ -4146,7 +4146,7 @@ class Mission
 			vehicle="O_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_kuz_co.paa""]; this enableSimulationGlobal false;";
 		};
 		class Item293
 		{
@@ -4158,7 +4158,7 @@ class Mission
 			vehicle="I_Truck_02_box_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_repair_co.paa""];";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_repair_co.paa""];";
 		};
 		class Item294
 		{
@@ -4170,7 +4170,7 @@ class Mission
 			vehicle="I_Truck_02_box_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_repair_co.paa""];";
+			init="this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_repair_co.paa""];";
 		};
 		class Item295
 		{
@@ -4182,7 +4182,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item296
 		{
@@ -4194,7 +4194,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item297
 		{
@@ -4206,7 +4206,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item298
 		{
@@ -4218,7 +4218,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item299
 		{
@@ -4230,7 +4230,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item300
 		{
@@ -4242,7 +4242,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item301
 		{
@@ -4254,7 +4254,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item302
 		{
@@ -4266,7 +4266,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item303
 		{
@@ -4278,7 +4278,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item304
 		{
@@ -4290,7 +4290,7 @@ class Mission
 			vehicle="O_Truck_02_fuel_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this enableSimulationGlobal false; this setObjectTextureGlobal [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this setObjectTextureGlobal [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
+			init="this enableSimulationGlobal false; this; [0, ""a3\soft_f_beta\Truck_02\Data\truck_02_kab_co.paa""];  this; [1, ""a3\soft_f_beta\Truck_02\Data\truck_02_fuel_co.paa""];";
 		};
 		class Item305
 		{
@@ -4486,7 +4486,7 @@ class Mission
 			vehicle="I_MRAP_03_hmg_F";
 			skill=0.60000002;
 			text="vOpforAPC_1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_pashtun.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_pashtun.jpg""];";
+			init="this; [0, ""Img\cusTex_pashtun.jpg""];  this; [1, ""Img\cusTex_pashtun.jpg""];";
 		};
 		class Item321
 		{
@@ -4497,7 +4497,7 @@ class Mission
 			vehicle="O_APC_Wheeled_02_rcws_F";
 			skill=0.60000002;
 			text="vOpforAPC_2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_pashtun.jpg""]; this setObjectTextureGlobal [2, ""Img\cusTex_pashtun.jpg""];";
+			init="this; [0, ""Img\cusTex_pashtun.jpg""]; this; [2, ""Img\cusTex_pashtun.jpg""];";
 		};
 		class Item322
 		{
@@ -4508,7 +4508,7 @@ class Mission
 			vehicle="I_MRAP_03_hmg_F";
 			skill=0.60000002;
 			text="vOpforAPC_3";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_pashtun.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_pashtun.jpg""];";
+			init="this; [0, ""Img\cusTex_pashtun.jpg""];  this; [1, ""Img\cusTex_pashtun.jpg""];";
 		};
 		class Item323
 		{
@@ -4869,7 +4869,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_CP.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_CP.paa""];";
 		};
 		class Item358
 		{
@@ -4879,7 +4879,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_CP.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_CP.paa""];";
 		};
 		class Item359
 		{
@@ -4889,7 +4889,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_CP.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_CP.paa""];";
 		};
 		class Item360
 		{
@@ -4899,7 +4899,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_CP.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_CP.paa""];";
 		};
 		class Item361
 		{
@@ -4909,7 +4909,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item362
 		{
@@ -4919,7 +4919,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item363
 		{
@@ -4929,7 +4929,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item364
 		{
@@ -4939,7 +4939,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_CP.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_CP.paa""];";
 		};
 		class Item365
 		{
@@ -4949,7 +4949,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_CP.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_CP.paa""];";
 		};
 		class Item366
 		{
@@ -4959,7 +4959,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item367
 		{
@@ -4969,7 +4969,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item368
 		{
@@ -4979,7 +4979,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item369
 		{
@@ -4989,7 +4989,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item370
 		{
@@ -4999,7 +4999,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item371
 		{
@@ -5009,7 +5009,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item372
 		{
@@ -5019,7 +5019,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item373
 		{
@@ -5029,7 +5029,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_Aegis_facility.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_Aegis_facility.paa""];";
 		};
 		class Item374
 		{
@@ -5120,7 +5120,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_BRAVO";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item383
@@ -5132,7 +5132,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_1_ALPHA";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item384
@@ -5144,7 +5144,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_BRAVO";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item385
@@ -5156,7 +5156,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_2_ALPHA";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item386
@@ -5168,7 +5168,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-3 MRAP";
 		};
 		class Item387
@@ -5180,7 +5180,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-3 MRAP";
 		};
 		class Item388
@@ -5192,7 +5192,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2PC";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2 PLT Vehicle";
 		};
 		class Item389
@@ -5204,7 +5204,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_SQUAD";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item390
@@ -5216,7 +5216,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_SQUAD";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 	};

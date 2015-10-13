@@ -80,6 +80,6 @@ ADF_fnc_redressRussian = {
 	
 	[_unit] call ADF_fnc_redressRussian_skill;
 	
-	_unit setObjectTextureGlobal [0, "\a3\characters_f\OPFOR\Data\clothing_rus_co.paa"];
+	_unit; [0, "\a3\characters_f\OPFOR\Data\clothing_rus_co.paa"];
 	[_unit,"RussianPatch"] call BIS_fnc_setUnitInsignia;
 };

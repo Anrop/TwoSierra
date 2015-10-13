@@ -92,10 +92,10 @@ if ((typeOf player) IN ["sfp_m90w_sog_ak5","sfp_m90w_sog_at_specialist_rb57","sf
 	
 		waitUntil {time > 10};
 		
-		player setObjectTextureGlobal [0, "\A3\Characters_F\Common\Data\basicbody_black_co.paa"];
+		player; [0, "\A3\Characters_F\Common\Data\basicbody_black_co.paa"];
 		{
 			{			
-				_x setObjectTextureGlobal [0, "\A3\Characters_F\Common\Data\basicbody_black_co.paa"];
+				_x; [0, "\A3\Characters_F\Common\Data\basicbody_black_co.paa"];
 			} forEach units _x;
 		} forEach ADF_sorUnits;
 	};

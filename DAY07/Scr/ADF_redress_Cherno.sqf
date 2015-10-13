@@ -28,7 +28,7 @@ ADF_fnc_redressCherno = {
 	removeUniform _unit;
 	_unit forceAddUniform "U_B_CTRG_1";
 	{_unit addItemToUniform _x;} forEach _uniformStore;
-	_unit setObjectTextureGlobal [0, "\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"];
+	_unit; [0, "\a3\characters_f\BLUFOR\Data\clothing_wdl_co.paa"];
 	
 	_uBackpack = unitBackpack _unit;
 	if	(format	["%1", _uBackpack] != "") then {

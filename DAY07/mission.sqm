@@ -1034,7 +1034,7 @@ class Mission
 			vehicle="sfp_tgb30_repair";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item11
 		{
@@ -1044,7 +1044,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item12
 		{
@@ -1054,7 +1054,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item13
 		{
@@ -1064,7 +1064,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item14
 		{
@@ -1074,7 +1074,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item15
 		{
@@ -1084,7 +1084,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item16
 		{
@@ -1094,7 +1094,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item17
 		{
@@ -1104,7 +1104,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item18
 		{
@@ -1114,7 +1114,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item19
 		{
@@ -1124,7 +1124,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item20
 		{
@@ -1136,7 +1136,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_1b";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this; [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item21
 		{
@@ -1159,7 +1159,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_1a";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
 		};
 		class Item23
 		{
@@ -1182,7 +1182,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_2b";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this; [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item25
 		{
@@ -1205,7 +1205,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_2a";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
 		};
 		class Item27
 		{
@@ -1228,7 +1228,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_3b";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this; [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item29
 		{
@@ -1251,7 +1251,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_3a";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
 		};
 		class Item31
 		{
@@ -1274,7 +1274,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_4b";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this; [2, ""Img\cusTex_ChernCamo.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item33
 		{
@@ -1297,7 +1297,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="CP_4a";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_ChernCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_ChernCamo.jpg""]; this; [1, ""Img\cusTex_ChernCamo.jpg""];  this enableSimulationGlobal false;";
 		};
 		class Item35
 		{
@@ -1423,7 +1423,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_BRAVO";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item48
@@ -1435,7 +1435,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_1_ALPHA";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item49
@@ -1447,7 +1447,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_BRAVO";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item50
@@ -1459,7 +1459,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_2_ALPHA";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item51
@@ -1471,7 +1471,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-3 MRAP";
 		};
 		class Item52
@@ -1483,7 +1483,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			skill=0.2;
 			text="MRAP_2_3_WT1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-3 MRAP";
 		};
 		class Item53
@@ -1495,7 +1495,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2PC";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2 PLT Vehicle";
 		};
 		class Item54
@@ -1507,7 +1507,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_1_SQUAD";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-1 MRAP";
 		};
 		class Item55
@@ -1519,7 +1519,7 @@ class Mission
 			vehicle="sfp_tgb16";
 			skill=0.2;
 			text="MRAP_2_2_SQUAD";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""];";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""];";
 			description="2-2 MRAP";
 		};
 		class Item56
@@ -1530,7 +1530,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item57
 		{
@@ -1540,7 +1540,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item58
 		{
@@ -1550,7 +1550,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item59
 		{
@@ -1560,7 +1560,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item60
 		{
@@ -1570,7 +1570,7 @@ class Mission
 			side="EMPTY";
 			vehicle="SignAd_Sponsor_F";
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulationGlobal false; this setObjectTexture [0, ""Img\sign_CAF_border.paa""];";
+			init="this allowDamage false; this enableSimulationGlobal false; this; [0, ""Img\sign_CAF_border.paa""];";
 		};
 		class Item61
 		{
@@ -1582,7 +1582,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="bDef_01";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_NRFcamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_M2A4up_tiles.jpg""];  this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_NRFcamo.jpg""]; this; [1, ""Img\cusTex_NRFcamo.jpg""];  this; [2, ""Img\cusTex_M2A4up_tiles.jpg""];  this enableSimulationGlobal false;";
 		};
 		class Item62
 		{
@@ -1613,7 +1613,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vFuelTruck";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""];  this; [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item65
 		{
@@ -1624,7 +1624,7 @@ class Mission
 			vehicle="sfp_tgb16_rws";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item66
 		{
@@ -1635,7 +1635,7 @@ class Mission
 			vehicle="sfp_tgb20";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item67
 		{
@@ -1737,7 +1737,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="bDef_02";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_NRFcamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_NRFcamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_M2A4up_tiles.jpg""];  this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_NRFcamo.jpg""]; this; [1, ""Img\cusTex_NRFcamo.jpg""];  this; [2, ""Img\cusTex_M2A4up_tiles.jpg""];  this enableSimulationGlobal false;";
 		};
 		class Item76
 		{
@@ -1782,7 +1782,7 @@ class Mission
 			vehicle="sfp_tgb40_fuel";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""];  this; [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item80
 		{
@@ -2507,7 +2507,7 @@ class Mission
 			vehicle="O_APC_Tracked_02_AA_F";
 			skill=0.60000002;
 			text="vAA_1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RusCamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_RusCamo.jpg""]; ";
+			init="this; [0, ""Img\cusTex_RusCamo.jpg""]; this; [1, ""Img\cusTex_RusCamo.jpg""];  this; [2, ""Img\cusTex_RusCamo.jpg""]; ";
 		};
 		class Item151
 		{
@@ -2518,7 +2518,7 @@ class Mission
 			vehicle="O_Heli_Attack_02_black_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo_AF.jpg""];";
+			init="this; [0, ""Img\cusTex_RusCamo_AF.jpg""];";
 		};
 		class Item152
 		{
@@ -2530,7 +2530,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vArti_1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [2, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [3, ""Img\cusTex_RusCamo.jpg""]; ";
+			init="this; [0, ""Img\cusTex_RusCamo.jpg""]; this; [1, ""Img\cusTex_RusCamo.jpg""]; this; [2, ""Img\cusTex_RusCamo.jpg""]; this; [3, ""Img\cusTex_RusCamo.jpg""]; ";
 		};
 		class Item153
 		{
@@ -2541,7 +2541,7 @@ class Mission
 			vehicle="O_Heli_Light_02_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo_AF.jpg""];";
+			init="this; [0, ""Img\cusTex_RusCamo_AF.jpg""];";
 		};
 		class Item154
 		{
@@ -2552,7 +2552,7 @@ class Mission
 			vehicle="O_Plane_CAS_02_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo_AF.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RusCamo_AF.jpg""];";
+			init="this; [0, ""Img\cusTex_RusCamo_AF.jpg""]; this; [1, ""Img\cusTex_RusCamo_AF.jpg""];";
 		};
 		class Item155
 		{
@@ -2563,7 +2563,7 @@ class Mission
 			vehicle="O_APC_Tracked_02_AA_F";
 			skill=0.60000002;
 			text="vAA_2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RusCamo.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_RusCamo.jpg""]; ";
+			init="this; [0, ""Img\cusTex_RusCamo.jpg""]; this; [1, ""Img\cusTex_RusCamo.jpg""];  this; [2, ""Img\cusTex_RusCamo.jpg""]; ";
 		};
 		class Item156
 		{
@@ -4143,7 +4143,7 @@ class Mission
 			vehicle="O_Heli_Attack_02_black_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo_AF.jpg""];";
+			init="this; [0, ""Img\cusTex_RusCamo_AF.jpg""];";
 		};
 		class Item306
 		{
@@ -4201,7 +4201,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="vArti_2";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [2, ""Img\cusTex_RusCamo.jpg""]; this setObjectTextureGlobal [3, ""Img\cusTex_RusCamo.jpg""]; ";
+			init="this; [0, ""Img\cusTex_RusCamo.jpg""]; this; [1, ""Img\cusTex_RusCamo.jpg""]; this; [2, ""Img\cusTex_RusCamo.jpg""]; this; [3, ""Img\cusTex_RusCamo.jpg""]; ";
 		};
 		class Item311
 		{
@@ -4392,7 +4392,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item328
 		{
@@ -4403,7 +4403,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item329
 		{
@@ -4414,7 +4414,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item330
 		{
@@ -4425,7 +4425,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item331
 		{
@@ -4436,7 +4436,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item332
 		{
@@ -4447,7 +4447,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item333
 		{
@@ -4458,7 +4458,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item334
 		{
@@ -4469,7 +4469,7 @@ class Mission
 			vehicle="I_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item335
 		{
@@ -4480,7 +4480,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item336
 		{
@@ -4491,7 +4491,7 @@ class Mission
 			vehicle="I_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item337
 		{
@@ -4502,7 +4502,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item338
 		{
@@ -4513,7 +4513,7 @@ class Mission
 			vehicle="I_Truck_02_covered_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item339
 		{
@@ -4524,7 +4524,7 @@ class Mission
 			vehicle="I_Truck_02_transport_F";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_RebelCamo.jpg""]; this setObjectTextureGlobal [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
+			init="this; [0, ""Img\cusTex_RebelCamo.jpg""]; this; [1, ""Img\cusTex_RebelCamo.jpg""]; this enableSimulation false;";
 		};
 		class Item340
 		{
@@ -4574,7 +4574,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="MEDITRUCK_XO_1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false; if (isServer) then {this setVariable [""ace_medical_isMedicalVehicle"", true];};";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""];  this; [1, ""Img\cusTex_HEMTT_cover.jpg""]; this enableSimulationGlobal false; if (isServer) then {this setVariable [""ace_medical_isMedicalVehicle"", true];};";
 		};
 		class Item344
 		{
@@ -4586,7 +4586,7 @@ class Mission
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
 			text="oStat_02_1";
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_MRAP_front.jpg""];  this setObjectTextureGlobal [1, ""Img\cusTex_MRAP_back.jpg""];  this setObjectTextureGlobal [2, ""Img\cusTex_MRAP_turret.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_MRAP_front.jpg""];  this; [1, ""Img\cusTex_MRAP_back.jpg""];  this; [2, ""Img\cusTex_MRAP_turret.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item345
 		{
@@ -4597,7 +4597,7 @@ class Mission
 			vehicle="sfp_tgb30_repair";
 			lock="LOCKEDPLAYER";
 			skill=0.60000002;
-			init="this setObjectTextureGlobal [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
+			init="this; [0, ""Img\cusTex_HEMTT_front.jpg""]; this enableSimulationGlobal false;";
 		};
 		class Item346
 		{

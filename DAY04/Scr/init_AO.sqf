@@ -20,8 +20,8 @@ for "_i" from 1 to 5 do {
 	if (_vp == "I_G_Offroad_01_armed_F") then {
 		[_vX, "ADF_opforOffroad", nil] call bis_fnc_initVehicle;
 	} else {
-		_vX setObjectTextureGlobal [0, "Img\cusTex_pashtun.jpg"];
-		_vX setObjectTextureGlobal [2, "Img\cusTex_pashtun.jpg"];
+		_vX; [0, "Img\cusTex_pashtun.jpg"];
+		_vX; [2, "Img\cusTex_pashtun.jpg"];
 	};
 
 	[_c, _spawnPos, 2000, 4, "MOVE", "SAFE", "RED", "LIMITED", 25] call ADF_fnc_vehiclePatrol;

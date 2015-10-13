@@ -50,7 +50,7 @@ NRF_grp_3 setGroupIdGlobal ["5-1 CHARLIE"];
 {[_x, position leader _x, 150, 3, "MOVE", "SAFE", "RED", "LIMITED", "", "", [1,2,3]] call CBA_fnc_taskPatrol;} forEach [NRF_grp_1,NRF_grp_2];
 
 sleep .5;
-{{_x setObjectTextureGlobal [0, "\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"];} forEach units _x} forEach [NRF_grp_1,NRF_grp_2,NRF_grp_3];
+{{_x; [0, "\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"];} forEach units _x} forEach [NRF_grp_1,NRF_grp_2,NRF_grp_3];
 
 // Create random IED's
 private ["_iedMarkerArr"];
@@ -138,7 +138,7 @@ ADF_wpPosRdm = {
 		_v = [getMarkerPos _startPos, 0, _heli, _c] call BIS_fnc_spawnVehicle;
 		_c setGroupIdGlobal ["6-1 AIRBUS"];
 		vAirbus = _v select 0;
-		vAirbus setObjectTextureGlobal [0, "Img\cusTex_NRFcamo.jpg"]; vAirbus setObjectTextureGlobal [1, "Img\cusTex_NRFcamo.jpg"];
+		vAirbus; [0, "Img\cusTex_NRFcamo.jpg"]; vAirbus; [1, "Img\cusTex_NRFcamo.jpg"];
 		vAirbus allowDamage false;
 		{_x unassignItem "NVGoggles"; _x removeItem "NVGoggles"; _x enableGunlights "forceOn";} forEach units _c;
 		vAirbus flyInHeight 75;
@@ -231,8 +231,8 @@ for "_i" from 1 to 3 do {
 	_v = [_spawnPos, _spawnDir, "I_APC_tracked_03_cannon_F", _c] call BIS_fnc_spawnVehicle;
 	{[_x] call ADF_fnc_redressCherno} forEach units _c;
 	_vX = _v select 0;
-	_vX setObjectTextureGlobal [0, "Img\cusTex_ChernCamo.jpg"];
-	_vX setObjectTextureGlobal [1, "Img\cusTex_ChernCamo.jpg"];
+	_vX; [0, "Img\cusTex_ChernCamo.jpg"];
+	_vX; [1, "Img\cusTex_ChernCamo.jpg"];
 	
 	[_c, _spawnPos, 2000, 4, "MOVE", "SAFE", "GREEN", "LIMITED", 25] call ADF_fnc_vehiclePatrol;
 };

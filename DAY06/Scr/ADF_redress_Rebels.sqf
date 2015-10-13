@@ -83,7 +83,7 @@ ADF_fnc_redressRebel = {
 	// Add Uniform container
 	_unit forceAddUniform _uniform;
 	
-	if (_uniform == "U_C_WorkerCoveralls") then {	if (_fiftyFifty == 0) then {	_unit setObjectTextureGlobal [0, "\A3\characters_f\common\data\coveralls_bandit_co.paa"]} else {_unit setObjectTextureGlobal [0, "\A3\characters_f\common\data\coveralls_urbancamo_co.paa"];}};
+	if (_uniform == "U_C_WorkerCoveralls") then {	if (_fiftyFifty == 0) then {	_unit; [0, "\A3\characters_f\common\data\coveralls_bandit_co.paa"]} else {_unit; [0, "\A3\characters_f\common\data\coveralls_urbancamo_co.paa"];}};
 
 	// Add vest & backpack
 	_unit addBackpack _backpack;

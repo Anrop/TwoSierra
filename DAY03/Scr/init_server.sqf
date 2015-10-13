@@ -62,7 +62,7 @@ vDolphin setHit ["wheel_1_2_steering", 1];
 vDolphin setHit ["wheel_1_4_steering", 1];
 vDolphin setHit ["wheel_1_1_steering", 1];
 	
-{{_x setObjectTextureGlobal [0, "\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"];} forEach units _x} forEach [NRF_grp_1,NRF_grp_2,NRF_grp_3,NRF_grp_4];
+{{_x; [0, "\a3\characters_f\BLUFOR\Data\clothing_sage_co.paa"];} forEach units _x} forEach [NRF_grp_1,NRF_grp_2,NRF_grp_3,NRF_grp_4];
 
 /*
 _mmObjArray = [
@@ -129,7 +129,7 @@ ADF_wpPosRdm = {
 		_v = [getMarkerPos _startPos, 0, _heli, _c] call BIS_fnc_spawnVehicle;
 		_c setGroupIdGlobal ["6-1 AIRBUS"];
 		vAirbus = _v select 0;
-		vAirbus setObjectTextureGlobal [0, "Img\cusTex_NRFcamo.jpg"]; vAirbus setObjectTextureGlobal [1, "Img\cusTex_NRFcamo.jpg"];		
+		vAirbus; [0, "Img\cusTex_NRFcamo.jpg"]; vAirbus; [1, "Img\cusTex_NRFcamo.jpg"];		
 		{_x unassignItem "NVGoggles"; _x removeItem "NVGoggles"; _x enableGunlights "forceOn";} forEach units _c;
 		vAirbus flyInHeight 75;
 		_wp = _c addWaypoint [getPos _landPos, 0];

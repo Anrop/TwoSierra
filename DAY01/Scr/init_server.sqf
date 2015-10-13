@@ -182,8 +182,8 @@ for "_i" from 0 to 2 do {
 	_vX setVariable ["BIS_enableRandomization", false];
 	
 	if (_vPool == "I_Truck_02_transport_F") then {
-		_vX setObjectTextureGlobal [0, "Img\cusTex_zamak.jpg"];
-		_vX setObjectTextureGlobal [1, "Img\cusTex_pashtun.jpg"];
+		_vX; [0, "Img\cusTex_zamak.jpg"];
+		_vX; [1, "Img\cusTex_pashtun.jpg"];
 		
 	} else {
 		[_vX, "ADF_opforOffroad", nil] call bis_fnc_initVehicle;

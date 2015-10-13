@@ -84,7 +84,7 @@ _ADF_bopCreate = {
 
 	{
 		if ((_x in _vReTexQue) && ((typeOf _x) in _vReTexArr)) then {
-			_x setObjectTextureGlobal [0, "Img\cusTex_zamak.jpg"]; _X setObjectTextureGlobal [1, "Img\cusTex_pashtun.jpg"]
+			_x; [0, "Img\cusTex_zamak.jpg"]; _X; [1, "Img\cusTex_pashtun.jpg"]
 		};
 	} forEach vehicles;
 	

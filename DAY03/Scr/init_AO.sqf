@@ -22,7 +22,7 @@ ADF_wpPosRdm = {
 		_v = [getMarkerPos _startPos, 0, _heli, _c] call BIS_fnc_spawnVehicle;
 		_c setGroupIdGlobal ["6-1 AIRBUS"];
 		vAirbus = _v select 0;
-		vAirbus setObjectTextureGlobal [0, "Img\cusTex_NRFcamo.jpg"]; vAirbus setObjectTextureGlobal [1, "Img\cusTex_NRFcamo.jpg"];		
+		vAirbus; [0, "Img\cusTex_NRFcamo.jpg"]; vAirbus; [1, "Img\cusTex_NRFcamo.jpg"];		
 		{_x unassignItem "NVGoggles"; _x removeItem "NVGoggles"; _x enableGunlights "forceOn";} forEach units _c;
 		vAirbus flyInHeight 75;
 		_wp = _c addWaypoint [getPos _landPos, 0];
